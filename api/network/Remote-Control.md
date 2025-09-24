@@ -1,7 +1,7 @@
 # 원격제어
 
 **Method:** `PUT`
-**Endpoint:** `/system/servermanagementstatus/{serverId}`
+**Endpoint:** `/system/servermanagementstatus/{serverId}`  
 **설명:** 원격제어 API
 
 ---
@@ -14,7 +14,7 @@
 
 ### 요청 항목(RequestBody)
 
-- **`type`** (String, 필수) : 원격제어 종류('networkIsolate', 'hostShutdown')
+- **`type`** (String, 필수) : 원격제어 종류('networkIsolate', 'hostShutdown')  
 - **`isUse`** (boolean, 필수) : 사용여부
 
 ### 요청 예시
@@ -30,8 +30,8 @@
 
 ### 응답 항목
 
-- **`code`** (String) : 응답코드 (`0000`만 정상)
-- **`message`** (String) : 응답 메시지
+- **`code`** (String) : 응답코드 (`0000`만 정상)  
+- **`message`** (String) : 응답 메시지  
 - **`data`** (JSON Object) : 응답 데이터
 
 ### 응답 예시
@@ -44,3 +44,4 @@
 }
 
 ```
+
