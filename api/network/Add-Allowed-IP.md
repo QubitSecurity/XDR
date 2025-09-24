@@ -20,7 +20,7 @@
 ### 요청 예시
 
 ```
-/system/isolation/allowip
+/system/isolation/allowip
 
  ```
 
@@ -56,3 +56,4 @@
 }
 
  ```
+
