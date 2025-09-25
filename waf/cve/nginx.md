@@ -1,7 +1,3 @@
-다음 형식으로 **Nginx** CVE 전수 목록을 정리했습니다. (공식 *nginx security advisories* 기반) ([Nginx][1])
-
----
-
 1. **Web : Nginx**
 
 2. **CVE**
@@ -47,7 +43,6 @@
 39) [CVE-2009-2629](https://www.cve.org/CVERecord?id=CVE-2009-2629) — Buffer underflow vulnerability
 40) [CVE-2009-3896](https://www.cve.org/CVERecord?id=CVE-2009-3896) — Null pointer dereference vulnerability
 
-> **출처:** 공식 *nginx security advisories* 페이지를 기준으로 정리했습니다. 필요 시 \*\*버전 영향 범위(취약/비취약 버전)\*\*도 각 항목에 덧붙여 드리겠습니다. ([Nginx][1])
-
+> **출처:** 공식 *nginx security advisories* 페이지를 기준으로 정리했습니다. 필요 시 버전 영향 범위(취약/비취약 버전)도 각 항목에 덧붙여 드리겠습니다. ([Nginx][1])
 
 [1]: https://nginx.org/en/security_advisories.html "nginx security advisories"
