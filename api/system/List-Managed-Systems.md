@@ -32,13 +32,13 @@
     
 - **`summarySearch`** (String, 선택) : 등록 : all, on : isLogUploadOn, off : isLogUploadOff, 에이전트 : isAgentActive, osType : osType 코드, 웹방화벽 : isWaf
     
-- **`serverIp`** (String, 선택) : 호스트
+- **`serverIp`** (String, 선택) : 호스트 (like 검색)
     
-- **`hostname`** (String, 선택) : 호스트명
+- **`hostname`** (String, 선택) : 호스트명 (like 검색)
     
 - **`createDatetime`** (String, 선택) : 등록일(yyyy-M-d H:m:s)
     
-- **`serverName`** (String, 선택) : 별칭
+- **`serverName`** (String, 선택) : 별칭 (like 검색)
     
 
 ### 요청 예시
@@ -167,4 +167,5 @@
 }
 
  ```
+
 
