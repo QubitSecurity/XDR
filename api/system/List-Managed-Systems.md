@@ -14,7 +14,7 @@
     
 - **`size`** (int, 선택) : 사이즈
     
-- **`sort`** (String, 선택) : 정렬순서 - serverId,desc : 날짜(최신순), serverId,asc : 날짜(과거순), serverIp,desc : 호스트(높은순), serverIp,asc : 호스트(낮은순)
+- **`sort`** (String, 선택) : 정렬순서 - id,desc : 날짜(최신순), id,asc : 날짜(과거순), serverIp,desc : 호스트(높은순), serverIp,asc : 호스트(낮은순)
     
 - **`serverGroupIds`** (array, 선택) : 서버그룹id
     
@@ -44,7 +44,7 @@
 ### 요청 예시
 
 ```
-/system/servers?page=1&size=20&sort=searverId|desc&serverGroupIds=&osTypes=&serverIds=&logTypeSummary=®isterTypes=&isSaveFullLog=&isAgentDel=&summarySearch=all=&serverIp=&hostname=&serverName=&createDateTime=2025-3-02 5:20:2
+/system/servers?page=1&size=20&sort=id,desc&serverGroupIds=&osTypes=&serverIds=&logTypeSummary=RegisterTypes&isSaveFullLog=&isAgentDel=&summarySearch=all&serverIp=&hostname=&serverName=&createDateTime=2025-3-02 5:20:2
 
  ```
 
@@ -167,3 +167,4 @@
 }
 
  ```
+
